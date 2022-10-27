@@ -3,6 +3,6 @@ import { InitMessageComponent } from '../components/InitMessageComponent';
 
 export const InfoPage = () => {
   return (
-    <InitMessageComponent text1='Información de la app...' />
+    <InitMessageComponent text1='Información [Esto no deberia aparecer]...' />
   )
 }
