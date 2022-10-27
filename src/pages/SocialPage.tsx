@@ -1,26 +1,9 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native';
+import { InitMessageComponent } from '../components/InitMessageComponent';
 
 export const SocialPage = () => {
   return (
-    <View style={ styles.container }>
-        <Text style={ styles.text }>Pagina de redes sociales</Text>
-    </View>
+    <InitMessageComponent text1='Redes sociales...'  />
   )
 }
-
-const styles = StyleSheet.create({
-
-    container: {
-        flex: 1,
-        backgroundColor: 'aqua',
-        justifyContent: 'center',
-        alignItems: 'center',
-    },
-    text: {
-        fontSize: 20,
-        color: 'black',
-        fontWeight: 'bold',
-    }
-
-})
